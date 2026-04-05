@@ -41,7 +41,7 @@ git pull
 
 Récupérer un projet :
 ```bash
-git clone <url de la branche>
+git clone <url du repo>
 ```
 
 ### Pour aller plus loin
