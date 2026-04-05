@@ -60,5 +60,32 @@ Regarder l'historique :
 git log
 ```
 
-##
+## Travailler avec les branches
+
+Les branches sont surtout utiliser pour le travail d'équipe, on ne va pas directement programmer sur la branche **main**
+
+
+Créer une branche :
+
+Pour la création de branche, il existe plusieurs façon de procéder 
+
+- Utiliser ton nom
+
+```bash
+git branch -b yourName
+```
+- Utiliser le type de fonctionnalité et une description de celle ci (on peut ajouter egalement le numero de ticket associé si il y a)
+  
+```bash
+git branch -b feature/123-feature-name
+```
+Changer de branche :
+
+```bash
+git branch main
+```
+Lister les branches :
+```bash
+git branch
+```
 
